@@ -2,7 +2,7 @@
 My first own shitty OS.
 
 # Build
-0. You need to have nasm and qemu installed to build syhrl os.
+0. You need to have git, nasm and qemu installed to build syhrl os.
 
 1. Use 'git clone https://github.com/ProjektOpensource/syhrl-os.git' to download it.
 
