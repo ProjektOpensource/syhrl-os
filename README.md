@@ -1,5 +1,5 @@
 # syhrl-os
-My first own shitty OS.
+My first own shitty OS following the old series of poncho (without UEFI).
 
 # Build
 0. You need to have git, nasm and qemu installed to build syhrl os.
