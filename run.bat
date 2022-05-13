@@ -9,3 +9,4 @@ cd ..
 copy /b sec1\boot.bin+sec2\extended.bin test.flp
 
 qemu-system-x86_64 test.flp
+cls

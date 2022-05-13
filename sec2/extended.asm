@@ -4,14 +4,11 @@
 mov bp, 0x7e00
 mov sp, bp
 
-mov bx, stringtest
-call bsix_print_string
+call disksuccess1
 
-;jmp $
+jmp $
 
 %include "print.asm"
-
-stringtest:
-    db "Hello from me!!!", 0
+%include "sector2_successes.asm"
 
 times 2048-($-$$) db 0

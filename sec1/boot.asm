@@ -7,10 +7,10 @@ mov sp, bp
 
 call read_disk
 
+jmp program_space
+
 %include "print.asm"
 %include "diskread.asm"
-
-jmp program_space
 
 times 510-($-$$) db 0
 dw 0xaa55
